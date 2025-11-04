@@ -26,7 +26,6 @@ class Atleta {
     this.notas = notas;
     }
 
-    // Calcular a média válida
     calcularMedia() {
         let notasOrdenadas = this.notas.sort((a, b) => a - b);
         let notasComputadas = notasOrdenadas.slice(1, 4);
@@ -48,7 +47,6 @@ class Atleta {
     }
 }
 
-// A base de dados dos atletas
 let atletas = [
   {
     nome: "Cesar Abascal",
@@ -68,11 +66,9 @@ let atletas = [
   }
 ];
 
-// Laço que percorre todos os atletas da base de dados
-
 for (i = 0; i < atletas.length; i++) {
-      let atleta = new Atleta(atletas[i].nome, atletas[i].notas); // Cria um novo objeto Atleta com nome e notas do atleta atual
-      atleta.exibirResultado(); // Exibe o resultado do atleta no console
+      let atleta = new Atleta(atletas[i].nome, atletas[i].notas); 
+      atleta.exibirResultado(); 
 }
 ## Exemplo de Saída
 Atleta: Cesar Abascal
