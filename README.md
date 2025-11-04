@@ -78,6 +78,8 @@ for (i = 0; i < atletas.length; i++) {
 
 ```
 ## Exemplo de Saída
+
+```javascript
 Atleta: Cesar Abascal
 Notas Obtidas: 7.88, 8.42, 9.34, 10, 10
 Média Válida: 9.253333
@@ -94,6 +96,7 @@ Atleta: Bruno Castro
 Notas Obtidas: 9, 9.5, 10, 10, 10
 Média Válida: 9.83333333333
 
+```
 ## Instalação
 
 Instale my-project com npm
