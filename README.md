@@ -69,9 +69,10 @@ let atletas = [
 ];
 
 // Laço que percorre todos os atletas da base de dados
+
 for (i = 0; i < atletas.length; i++) {
-    let atleta = new Atleta(atletas[i].nome, atletas[i].notas); // Cria um novo objeto Atleta com nome e notas do atleta atual
-    atleta.exibirResultado(); // Exibe o resultado do atleta no console
+      let atleta = new Atleta(atletas[i].nome, atletas[i].notas); // Cria um novo objeto Atleta com nome e notas do atleta atual
+      atleta.exibirResultado(); // Exibe o resultado do atleta no console
 }
 ## Exemplo de Saída
 Atleta: Cesar Abascal
