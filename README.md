@@ -19,13 +19,11 @@ A classe `Atleta` possui:
 
 ## Código de Exemplo
 
-// Criar a classe Atleta
-
 class Atleta {
-       constructor(nome, notas) {
-       this.nome = nome;
-       this.notas = notas;
 
+    constructor(nome, notas) {
+    this.nome = nome;
+    this.notas = notas;
     }
 
     // Calcular a média válida
