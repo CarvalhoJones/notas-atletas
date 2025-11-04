@@ -21,9 +21,9 @@ A classe `Atleta` possui:
 
 // Criar a classe Atleta
 class Atleta {
-        constructor(nome, notas) {
-        this.nome = nome;
-        this.notas = notas;
+       constructor(nome, notas) {
+       this.nome = nome;
+       this.notas = notas;
 
     }
 
