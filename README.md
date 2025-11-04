@@ -19,6 +19,8 @@ A classe `Atleta` possui:
 
 ## Código de Exemplo
 
+// Criar a classe Atleta
+
 class Atleta {
 
     constructor(nome, notas) {
@@ -26,6 +28,7 @@ class Atleta {
     this.notas = notas;
     }
 
+    // Calcular a média válida
     calcularMedia() {
         let notasOrdenadas = this.notas.sort((a, b) => a - b);
         let notasComputadas = notasOrdenadas.slice(1, 4);
@@ -47,6 +50,7 @@ class Atleta {
     }
 }
 
+// A base de dados dos atletas
 let atletas = [
   {
     nome: "Cesar Abascal",
@@ -66,9 +70,11 @@ let atletas = [
   }
 ];
 
-for (i = 0; i < atletas.length; i++) {
-      let atleta = new Atleta(atletas[i].nome, atletas[i].notas); 
-      atleta.exibirResultado(); 
+// Laço que percorre todos os atletas da base de dados
+
+    for (i = 0; i < atletas.length; i++) {
+      let atleta = new Atleta(atletas[i].nome, atletas[i].notas); // Cria um novo objeto Atleta com nome e notas do atleta atual
+      atleta.exibirResultado(); // Exibe o resultado do atleta no console
 }
 
 ## Exemplo de Saída
