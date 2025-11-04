@@ -70,6 +70,7 @@ for (i = 0; i < atletas.length; i++) {
       let atleta = new Atleta(atletas[i].nome, atletas[i].notas); 
       atleta.exibirResultado(); 
 }
+
 ## Exemplo de Saída
 Atleta: Cesar Abascal
 Notas Obtidas: 7.88, 8.42, 9.34, 10, 10
