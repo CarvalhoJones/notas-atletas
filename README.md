@@ -20,6 +20,7 @@ A classe `Atleta` possui:
 ## Código de Exemplo
 
 // Criar a classe Atleta
+
 class Atleta {
        constructor(nome, notas) {
        this.nome = nome;
